@@ -1,0 +1,14 @@
+﻿{
+    "builtin-baseline": "418da99d5a6baef99fe3f2fd69ba561f8bb1fd54",
+    "dependencies": [
+        "boost-beast",
+        "openssl",
+        "protobuf",
+        {
+            "name": "protobuf-c",
+            "features": [
+                "tools"
+            ]
+        }
+    ]
+}
